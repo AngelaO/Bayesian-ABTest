@@ -11,6 +11,11 @@ def calculate_ab(alpha_A,beta_A,alpha_B,beta_B):
     prefer_b_probability+=result
   return prefer_b_probability
 
+aA=wA
+bA=tA-wA
+aB=wB
+bB=tB-wB
+
 if(calculate_ab(aA,bA,aB,bB)>=0.5):
   return b
 else:
