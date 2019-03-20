@@ -13,11 +13,15 @@ setuptools.setup(
     description="Bayesian AB test package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/AngelaO/Bayesian-ABTest",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    # package_data=["requirements.txt"],
+    install_requires=required,
+    platforms=['any'],
+    python_requires=">=3.3",
 )
