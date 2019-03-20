@@ -1,5 +1,5 @@
 from setuptools import setup
-with open(“requirements.txt”) as req_txt:
+with open("requirements.txt") as req_txt:
 	required = [line for line in req_txt.read().splitlines() if line]
 
 with open("README.md", "r") as fh:
