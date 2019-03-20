@@ -5,7 +5,7 @@ with open("requirements.txt") as req_txt:
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+setup(
     name=" pysprint_abBay_analysis",
     version="0.0.1",
     author="Gender Minorities Py Sprints",
