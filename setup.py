@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name=" pysprint_abBay_analysis",
+    name="pysprint_abBay_analysis",
     version="0.0.1",
     author="Gender Minorities Py Sprints",
     author_email="author@example.com",
