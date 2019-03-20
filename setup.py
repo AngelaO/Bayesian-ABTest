@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 with open("requirements.txt") as req_txt:
 	required = [line for line in req_txt.read().splitlines() if line]
 
@@ -14,7 +14,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AngelaO/Bayesian-ABTest",
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
